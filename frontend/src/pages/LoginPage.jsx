@@ -49,7 +49,7 @@ const LoginPage = () => {
                 <input
                   type="email"
                   className={`input input-bordered w-full pl-10`}
-                  placeholder="you@example.com"
+                  placeholder="demo@email.com"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 />
@@ -109,7 +109,7 @@ const LoginPage = () => {
       </div>
 
       {/* Right Side - Image/Pattern */}
-      <AuthImagePattern
+      <AuthImagePattern className="color-"
         title={"Welcome back!"}
         subtitle={"Sign in to continue your conversations and catch up with your messages."}
       />
